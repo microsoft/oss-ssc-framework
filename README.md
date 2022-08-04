@@ -17,7 +17,7 @@ Our OSS Secure Supply Chain (SSC) Framework is complete with:
 ## View or Download the OSS SSC Framework Specification
 
 > ⭐: **Click
-> _[here](Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
+> _[here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
 
 ## Contributing
 
