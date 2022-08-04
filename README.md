@@ -3,9 +3,9 @@
 <img alt="secure package icon" src="images/secure-package-icon.png" width=15%>
 
 ## Overview
-This guide outlines and defines how to securely consume Open Source Software (OSS) dependencies into the developer’s workflow. This paper is split into two parts: a solution-agonistic set of practices and a maturity model-based implementation guide. Our Framework is targeted toward organizations that do software development, that take a dependency on open source software, and that seek to improve the security of their software supply chain. 
+This guide outlines and defines how to securely consume Open Source Software (OSS) dependencies into the developer’s workflow. This paper is split into two parts: a solution-agonistic set of practices and a maturity model-based implementation guide. The Framework is targeted toward organizations that do software development, that take a dependency on open source software, and that seek to improve the security of their software supply chain. 
 
-Our OSS Secure Supply Chain (SSC) Framework is complete with: 
+The OSS SSC Framework is complete with: 
 
 * A high-level solution-agnostic set of practices 
 * A detailed list of requirements 
