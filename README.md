@@ -14,7 +14,15 @@ Our OSS Secure Supply Chain (SSC) Framework is complete with:
 * A process for assessing your organization’s maturity 
 * A mapping of the Framework requirements to 6 other supply chain specifications 
 
+## View or Download the OSS SSC Framework Specification
+
+> ⭐: **Click
+> _[here](Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
+
 ## Contributing
+
+The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section.
+Specific guildelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/specification-README.md))
 
 Community Meetings:
 - OSS SSC Framework community meetings are held each _____. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
