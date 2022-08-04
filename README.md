@@ -23,8 +23,11 @@ The OSS SSC Framework is complete with:
 
 The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guildelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/specification-README.md).
 
+SLA to Triage Issues:
+- The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
+
 Community Meetings:
-- OSS SSC Framework community meetings are held each _____. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+- OSS SSC Framework community meetings are held the 3rd Tuesday of every month. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
 Technical Meetings:
-- OSS SSC Framework technical meetings are held each ______. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+- OSS SSC Framework technical meetings are held the last Monday of every month. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
