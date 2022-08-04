@@ -6,7 +6,7 @@
 ## Updates to the specification
 
 The OSS SSC Framework specification is intended to be a living document
-created and maintained for the community, by its members.
+created and maintained for the community by its members.
 
 Updates to the whitepaper, suggestions for updates, or discussion for updates
 should initiate with an [issue](https://github.com/microsoft/oss-ssc-framework/issues)
@@ -59,5 +59,5 @@ should be considered when updating the content.
   unaware.
 * Determine if the content is better suited as it's own document, such as a
   how-to, blog, or whitepaper of itself.
-* Determine if your suggestion belongs in the high-level solution-agnostic set of Practices - which can be used in any scenario, or if your suggestion is more of a detailed implementation-level requirement.
+* Determine if your suggestion belongs in the high-level solution-agnostic set of Practices - which can be used in any scenario - or if your suggestion is more of a detailed implementation-level requirement.
 * Identify if the proposed requirement is realistic or aspirational. Suggest a level of maturity that fits with the themes for each maturity level.
