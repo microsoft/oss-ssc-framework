@@ -27,7 +27,7 @@ SLA to Triage Issues:
 - The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
 
 Community Meetings:
-- OSS SSC Framework community meetings are held the 3rd Tuesday of every month. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+- OSS SSC Framework community meetings are held the 3rd Tuesday of every month @ 12:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
 Technical Meetings:
-- OSS SSC Framework technical meetings are held the last Monday of every month. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+- OSS SSC Framework technical meetings are held the last Monday of every month @ 2:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
