@@ -21,8 +21,7 @@ Our OSS Secure Supply Chain (SSC) Framework is complete with:
 
 ## Contributing
 
-The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section.
-Specific guildelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/specification-README.md))
+The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guildelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/specification-README.md).
 
 Community Meetings:
 - OSS SSC Framework community meetings are held each _____. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
