@@ -10,7 +10,7 @@ This document does not provide you with any legal rights to any intellectual pro
 
 ©2022 Microsoft Corporation. All rights reserved.
 
-Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+Licensed under [Community Specification License 1.0](https://github.com/CommunitySpecification/1.0)
 
 # Table of Contents
 
