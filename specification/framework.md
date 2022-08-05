@@ -1,4 +1,4 @@
-<img alt="secure package icon" src="./images/secure-package-icon.png" width=15%>
+<img alt="secure package icon" src="../images/secure-package-icon.png" width=15%>
 
 # Microsoft® Open Source Software (OSS) Secure Supply Chain (SSC) Framework Simplified Requirements
 
@@ -22,7 +22,7 @@ Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unport
 * [OSS SSC Framework Practices](#oss-ssc-framework-practices)
   * [Target Audience](#target-audience)
   * [OSS SSC Framework Practices](#oss-ssc-framework-practices-1)
-* [The OSS SSC Framework Implementation Guide](#oss-ssc-framework-implementation-guide)
+* [The OSS SSC Framework Implementation Guide](#the-oss-ssc-framework-implementation-guide)
   * [Target Audience](#target-audience-1)
   * [OSS SSC Framework Levels of Maturity](#oss-ssc-framework-levels-of-maturity)
   * [How to Assess Where Your Organization is in the Maturity Model?](#how-to-assess-where-your-organization-is-in-the-maturity-model)
@@ -80,7 +80,7 @@ The OSS SSC Framework is a combination of requirements and tools for any organiz
 
 # Common OSS Supply Chain Threats
 
-The Microsoft OSS SSC Framework was designed based on known threats (i.e. tactics and techniques) used by adversaries to compromise OSS packages. The table below is a comprehensive compilation of OSS supply chain threats with links to real examples. It also identifies which OSS SSC Framework requirements mitigate the threat. To see the full list of requirements and their benefits, please see the [OSS SSC Framework Requirements](#OSS_SSC_Framework_Requirements) later in this document.
+The Microsoft OSS SSC Framework was designed based on known threats (i.e. tactics and techniques) used by adversaries to compromise OSS packages. The table below is a comprehensive compilation of OSS supply chain threats with links to real examples. It also identifies which OSS SSC Framework requirements mitigate the threat. To see the full list of requirements and their benefits, please see the [OSS SSC Framework Requirements](#oss-ssc-framework-requirements) later in this document.
 
 For other sources of OSS threats, please see the following links:
 
