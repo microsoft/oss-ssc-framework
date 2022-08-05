@@ -17,17 +17,19 @@ The OSS SSC Framework is complete with:
 ## View or Download the OSS SSC Framework Specification
 
 > ⭐: **Click
-> _[here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
+> _[here](./specification/Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
 
 ## Contributing
 
-The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/README.md).
+The living OSS SSC Framework is captured in [markdown](./specification/framework.md) and is where all updates will take place.
 
-SLA to Triage Issues:
+The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](./specification/README.md).
+
+*SLA to Triage Issues*:
 - The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
 
-Community Meetings:
+*Community Meetings*:
 - OSS SSC Framework community meetings are held the 3rd Tuesday of every month @ 12:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
-Technical Meetings:
+*Technical Meetings*:
 - OSS SSC Framework technical meetings are held the last Monday of every month @ 2:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
