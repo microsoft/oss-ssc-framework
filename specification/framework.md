@@ -68,7 +68,9 @@ The OSS SSC Framework is a security assurance and risk reduction process that is
 
 The Microsoft OSS SSC Framework (described later in this document) is modeled after three core concepts—_control all artifact inputs, continuous process improvement, and scale._
 
-![](RackMultipart20220804-1-5ey4ri_html_252fe04e0f2802f3.png)
+<p align="center">
+ <img alt="framework diagram" src="../images/Diagram-white-bkg.png" width=70%>
+</p>
 
 - _Control All Artifact Inputs_: There are a myriad of ways that developers consume OSS today: git clone, wget, copy &amp; pasted source, checking-in the binary into the repo, direct from public package managers, repackaging the OSS into a .zip, curl, apt-get, git submodule, and more. Securing the OSS supply chain in any organization is going to be near impossible if developer teams don&#39;t follow a uniform process for consuming OSS. Enforcing an effective secure OSS supply chain strategy necessitates standardizing your OSS consumption process across the various developer teams throughout your organization, so all developers consume OSS using governed workflows.
 - _Continuous Process Improvement_: To help guide organizations through continuous process improvement, we have organized the OSS SSC Framework into a maturity model. This helps organizations prioritize which requirements they should implement first. Since security risk is dynamic and new threats can emerge at any time, the OSS SSC Framework places heavy emphasis on understanding the new threats to the OSS supply chain and _requires_ regular evaluation of OSS SSC Frameworkcontrols and introduction of changes in response to new technology advancements or new threats.
@@ -235,11 +237,15 @@ This section details a maturity model, which splits the practices in the previou
 
 When the OSS SSC Framework was first developed, the strategy to secure our OSS supply chain was comprised of 8 practices.
 
-![](RackMultipart20220804-1-5ey4ri_html_e973b23c23843d9a.png)
+<p align="center">
+ <img alt="list of practices" src="../images/8-practices-white-bkg.png" width=40%>
+</p>
 
 Since all 8 practices cannot be reasonably implemented at the same time, the following maturity model organizes the requirements from each of the 8 practices into 4 different levels. It allows an organization to make incremental progress from their existing set of security capabilities toward a more secure defensive posture. Additionally, the maturity model considers different threats and themes at each Maturity Level.
 
-![](RackMultipart20220804-1-5ey4ri_html_56706669f13edee1.png)
+<p align="center">
+ <img alt="list of practices" src="../images/maturity-level-white-bkg.png" width=80%>
+</p>
 
 **Level 1** – Using a package caching solution, performing an OSS inventory, plus scanning and updating OSS represents the most common set of OSS security capabilities across the software industry today.
 
