@@ -21,9 +21,7 @@ The OSS SSC Framework is complete with:
 
 ## Contributing
 
-The living OSS SSC Framework is captured in [markdown](./specification/framework.md) and is where all updates will take place.
-
-The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](./specification/README.md).
+The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](./specification/README.md). The living OSS SSC Framework is captured in [markdown](./specification/framework.md) and is where all updates will take place.
 
 *SLA to Triage Issues*:
 - The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
