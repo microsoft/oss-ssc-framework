@@ -21,7 +21,7 @@ The OSS SSC Framework is complete with:
 
 ## Contributing
 
-The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/specification-README.md).
+The general Community Specification Contributing Policy is captured on the [Contributing](Contributing.md) section. Specific guidelines based on the policy for how best to contribute to the OSS SSC Framework specification is [here](https://github.com/microsoft/oss-ssc-framework/blob/main/specification/README.md).
 
 SLA to Triage Issues:
 - The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
