@@ -1,4 +1,4 @@
-# OSS SSC Framework Specification
+# Maintaining the OSS SSC Framework Specification
 
 > ⭐: **Click
 > _[here](Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
