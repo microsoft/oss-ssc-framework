@@ -90,18 +90,18 @@ For other sources of OSS threats, please see the following links:
 
 | **OSS Supply Chain Threat** | **Real Example** | **Mitigation via OSS SSC Framework Requirement** |
 | --- | --- | --- |
-| Accidental vulnerabilities in OSS code or Containers that we inherit | [SaltStack](https://www.helpnetsecurity.com/2020/05/04/saltstack-salt-vulnerabilities/) | UPD-2, UPD-3 |
+| Accidental vulnerabilities in OSS code or Containers that we inherit | [SaltStack](https://www.helpnetsecurity.com/2020/05/04/saltstack-salt-vulnerabilities/) | UPD-2 <br /> UPD-3 |
 | Intentional vulnerabilities/backdoors added to an OSS code base | [phpMyAdmin](https://arstechnica.com/information-technology/2012/09/questions-abound-as-malicious-phpmyadmin-backdoor-found-on-sourceforge-site/) | SCA-5 |
-| A malicious actor compromises a known good OSS component and adds malicious code into the repo | [ESLint](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)[incident](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes) | ING-3, ENF-2, SCA-4 |
-| A malicious actor creates a malicious package that is similar in name to a popular OSS component to trick developers into downloading it | [Typosquatting](https://www.securityweek.com/checkmarx-finds-threat-actor-fully-automating-npm-supply-chain-attacks) | AUD-1, ENF-2, SCA-4 |
+| A malicious actor compromises a known good OSS component and adds malicious code into the repo | [ESLint](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)[incident](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes) | ING-3 <br /> ENF-2 <br /> SCA-4 |
+| A malicious actor creates a malicious package that is similar in name to a popular OSS component to trick developers into downloading it | [Typosquatting](https://www.securityweek.com/checkmarx-finds-threat-actor-fully-automating-npm-supply-chain-attacks) | AUD-1 <br /> ENF-2 <br /> SCA-4 |
 | A malicious actor compromises the compiler used by the OSS during build, adding backdoors | [CCleaner](https://blog.morphisec.com/morphisec-discovers-ccleaner-backdoor) | REB-1 |
-| Dependency confusion, package substitution attacks | [Dependency Confusion](https://www.bleepingcomputer.com/news/security/copycats-imitate-novel-supply-chain-attack-that-hit-tech-giants/) | ENF-1, ENF-2 |
-| An OSS component adds new dependencies that are malicious | [Event-Stream incident](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident) | SCA-4, ENF-2 |
-| The integrity of an OSS package is tampered after build, but before consumption | [How to tamper with Electron apps](https://github.com/jonmest/How-To-Tamper-With-Any-Electron-Application) | AUD-3, AUD-4 |
-| Upstream source can be removed or taken down which can then break builds that depend on that OSS component or container | [left-pad](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/) | ING-2, ING-4 |
+| Dependency confusion, package substitution attacks | [Dependency Confusion](https://www.bleepingcomputer.com/news/security/copycats-imitate-novel-supply-chain-attack-that-hit-tech-giants/) | ENF-1 <br /> ENF-2 |
+| An OSS component adds new dependencies that are malicious | [Event-Stream incident](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident) | SCA-4 <br /> ENF-2 |
+| The integrity of an OSS package is tampered after build, but before consumption | [How to tamper with Electron apps](https://github.com/jonmest/How-To-Tamper-With-Any-Electron-Application) | AUD-3 <br /> AUD-4 |
+| Upstream source can be removed or taken down which can then break builds that depend on that OSS component or container | [left-pad](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/) | ING-2 <br /> ING-4 |
 | OSS components reach end-of-support/end-of-life and therefore don&#39;t patch vulnerabilities | [log4net](https://github.com/apache/logging-log4net/) and [CVE-2018-1285](https://nvd.nist.gov/vuln/detail/CVE-2018-1285) | SCA-3 |
 | Vulnerability not fixed by upstream maintainer in desired timeframe | [Prototype Pollution in Lodash](https://hackerone.com/reports/712065) | FIX-1 |
-| Bad actor compromises a package manager account (e.g. npm) with no change to the corresponding open source repo and uploads a new malicious version of a package | [Ua-parser-js](https://www.truesec.com/hub/blog/uaparser-js-npm-package-supply-chain-attack-impact-and-response) | AUD-1, ENF-2, SCA-4 |
+| Bad actor compromises a package manager account (e.g. npm) with no change to the corresponding open source repo and uploads a new malicious version of a package | [Ua-parser-js](https://www.truesec.com/hub/blog/uaparser-js-npm-package-supply-chain-attack-impact-and-response) | AUD-1 <br /> ENF-2 <br /> SCA-4 |
 
 # OSS SSC Framework Practices
 
@@ -326,7 +326,7 @@ In the future, Microsoft plans on releasing more tools to help organizations sec
 
 Below is a table of the OSS SSC Framework requirements with example tools from across the industry or detailed instructions to implement them, sorted by maturity level. Many of the tools referenced below are freely available and are listed as such. Some tools that are individually listed are available through a bundled offering, such as [GitHub Advanced Security](https://docs.github.com/en/enterprise-server@3.4/get-started/learning-about-github/about-github-advanced-security) (GHAS). We aren&#39;t specifically endorsing any tool or service, as they each have different strengths or weaknesses. We recommend performing a thorough evaluation before deciding on a specific solution, including tools not referenced in this document.
 
-This table maps each Framework requirement to corresponding level and Framework practice. To see the full list of requirements and their benefits, please see the [_OSS SSC Framework Requirements_](#OSS-SSC-Framework-Requirements) earlier in this document.
+This table maps each Framework requirement to corresponding level and Framework practice. To see the full list of requirements and their benefits, please see the [OSS SSC Framework Requirements](#OSS-SSC-Framework-Requirements) earlier in this document.
 
 | **Practice name** | **L1** | **L2** | **L3** | **L4** |
 | --- | --- | --- | --- | --- |
@@ -351,29 +351,29 @@ There are many other security frameworks, guides, and controls. This section map
 
 | **Requirement ID** | **Requirement Title** | **References** |
 | --- | --- | --- |
-| ING-1 | Use package managers trusted by your organization | **CIS SSC SG** : 3.1.5 **OWASP SCVS:** 1.2 **CNCF SSC:** Define and prioritize trusted package managers and repositories |
-| ING-2 | Use an OSS binary repository manager solution | **OWASP SCVS:** 4.1 **CNCF SSC:** Define and prioritize trusted package managers and repositories |
+| ING-1 | Use package managers trusted by your organization | **CIS SSC SG** : 3.1.5 <br /> **OWASP SCVS:** 1.2 <br /> **CNCF SSC:** Define and prioritize trusted package managers and repositories |
+| ING-2 | Use an OSS binary repository manager solution | **OWASP SCVS:** 4.1 <br /> **CNCF SSC:** Define and prioritize trusted package managers and repositories |
 | ING-3 | Have a Deny List capability to block known malicious OSS from being consumed | |
 | ING-4 | Mirror a copy of all OSS source code to an internal location | **CNCF SSC:** Build libraries based upon source code |
-| SCA-1 | Scan OSS for known vulnerabilities | **SP800218** : RV.1.1 **SP800161** : SA-10, SR-3, SR-4 **CIS SSC SG** : 1.5.5, 3.2.2 **OWASP SCVS:** 5.4 **CNCF SSC:** Verify third party artefacts and open source libraries, Scan software for vulnerabilities, Run software composition analysis on ingested software |
-| SCA-2 | Scan OSS for licenses | **CIS SSC SG** : 1.5.6, 3.2.3 **OWASP SCVS:** 5.12 **CNCF SSC:** Scan software for license implications |
-| SCA-3 | Scan OSS to determine if its end-of-life | **SP800218** : PW.4.1 **SP800161** : SA-4, SA-5, SA-8(3), SA-10(6), SR-3, SR-4 **OWASP SCVS:** 5.8 |
+| SCA-1 | Scan OSS for known vulnerabilities | **SP800218** : RV.1.1 <br /> **SP800161** : SA-10, SR-3, SR-4 <br /> **CIS SSC SG** : 1.5.5, 3.2.2 <br /> **OWASP SCVS:** 5.4 <br /> **CNCF SSC:** Verify third party artefacts and open source libraries, Scan software for vulnerabilities, Run software composition analysis on ingested software |
+| SCA-2 | Scan OSS for licenses | **CIS SSC SG** : 1.5.6, 3.2.3 <br /> **OWASP SCVS:** 5.12 <br /> **CNCF SSC:** Scan software for license implications |
+| SCA-3 | Scan OSS to determine if its end-of-life | **SP800218** : PW.4.1 <br /> **SP800161** : SA-4, SA-5, SA-8(3), SA-10(6), SR-3, SR-4 <br /> **OWASP SCVS:** 5.8 |
 | SCA-4 | Scan OSS for malware | |
-| SCA-5 | Perform proactive security review of OSS | **SP800218** : PW.4.4 **SP800161** : SA-4, SA-8, SA-9, SA-9(3), SR-3, SR-4, SR-4(3), SR-4(4) **OWASP SCVS:** 5.2, 5.3, |
-| INV-1 | Maintain an automated inventory of all OSS used in development | **OWASP SCVS:** 1.1, 1.3, 1.8, 5.11 **CNCF SSC:** Track dependencies between open source components |
-| INV-2 | Have an OSS Incident Response Plan | **SP800218** : RV.2.2 **SP800161** : SA-5, SA-8, SA-10, SA-11, SA-15(7) |
+| SCA-5 | Perform proactive security review of OSS | **SP800218** : PW.4.4 <br /> **SP800161** : SA-4, SA-8, SA-9, SA-9(3), SR-3, SR-4, SR-4(3), SR-4(4) <br /> **OWASP SCVS:** 5.2, 5.3, |
+| INV-1 | Maintain an automated inventory of all OSS used in development | **OWASP SCVS:** 1.1, 1.3, 1.8, 5.11 <br /> **CNCF SSC:** Track dependencies between open source components |
+| INV-2 | Have an OSS Incident Response Plan | **SP800218** : RV.2.2 <br /> **SP800161** : SA-5, SA-8, SA-10, SA-11, SA-15(7) |
 | UPD-1 | Update vulnerable OSS manually | |
 | UPD-2 | Enable automated OSS updates | |
 | UPD-3 | Display OSS vulnerabilities as comments in Pull Requests (PRs) | |
-| AUD-1 | Verify the provenance of your OSS | **CIS SSC SG** : 3.2.4 **OWASP SCVS:** 1.10, 6.1 **SLSA:** Provenance – Dependencies complete |
+| AUD-1 | Verify the provenance of your OSS | **CIS SSC SG** : 3.2.4 <br /> **OWASP SCVS:** 1.10, 6.1 <br /> **SLSA:** Provenance – Dependencies complete |
 | AUD-2 | Audit that developers are consuming OSS through the approved ingestion method | **CIS SSC SG** : 4.3.3 |
-| AUD-3 | Validate integrity of the OSS that you consume into your build | **CIS SSC SG** : 2.4.3 **OWASP SCVS:** 4.12 **CNCF SSC:** Verify third party artefacts and open source libraries |
+| AUD-3 | Validate integrity of the OSS that you consume into your build | **CIS SSC SG** : 2.4.3 <br /> **OWASP SCVS:** 4.12 <br /> **CNCF SSC:** Verify third party artifacts and open source libraries |
 | AUD-4 | Validate SBOMs of OSS that you consume into your build | **CNCF SSC:** Require SBOM from third party supplier |
-| ENF-1 | Securely configure your package source files (i.e. nuget.config, .npmrc, pip.conf, pom.xml, etc.) | **SP800218** : PO.5.2 **CIS SSC SG** : 2.4.2, 3.1.7, 4.3.4, 4.4.2 |
-| ENF-2 | Enforce usage of a curated OSS feed that enhances the trust of your OSS | **SP800218** : PO.5.2 **CIS SSC SG** : 2.4.3, 3.1.1, 3.1.3 |
-| REB-1 | Rebuild the OSS in a trusted build environment, or validate that it is reproducibly built | **CIS SSC SG** : 2.4.4 **SLSA:** Build - Reproducible |
+| ENF-1 | Securely configure your package source files (i.e. nuget.config, .npmrc, pip.conf, pom.xml, etc.) | **SP800218** : PO.5.2 <br /> **CIS SSC SG** : 2.4.2, 3.1.7, 4.3.4, 4.4.2 |
+| ENF-2 | Enforce usage of a curated OSS feed that enhances the trust of your OSS | **SP800218** : PO.5.2 <br /> **CIS SSC SG** : 2.4.3, 3.1.1, 3.1.3 |
+| REB-1 | Rebuild the OSS in a trusted build environment, or validate that it is reproducibly built | **CIS SSC SG** : 2.4.4 <br /> **SLSA:** Build - Reproducible |
 | REB-2 | Digitally sign the OSS you rebuild | **SP800218** : PS.2.1 |
-| REB-3 | Generate SBOMs for OSS that you rebuild | **SP800218** : PS.3.2 **SP800161** : SA-8, SR-3, SR-4 **CIS SSC SG** : 2.4.5 **OWASP SCVS:** 1.4, 1.7 **CNCF SSC:** Generate an immutable SBOM of the code |
+| REB-3 | Generate SBOMs for OSS that you rebuild | **SP800218** : PS.3.2 <br /> **SP800161** : SA-8, SR-3, SR-4 <br /> **CIS SSC SG** : 2.4.5 <br /> **OWASP SCVS:** 1.4, 1.7 <br /> **CNCF SSC:** Generate an immutable SBOM of the code |
 | REB-4 | Digitally sign the SBOMs you produce | **CIS SSC SG** : 2.4.6 |
 | FIX-1 | Implement a change in the code to address a zero-day vulnerability, rebuild, deploy to your organization, and confidentially contribute the fix to the upstream maintainer | |
 
