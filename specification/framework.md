@@ -326,7 +326,7 @@ In the future, Microsoft plans on releasing more tools to help organizations sec
 
 Below is a table of the OSS SSC Framework requirements with example tools from across the industry or detailed instructions to implement them, sorted by maturity level. Many of the tools referenced below are freely available and are listed as such. Some tools that are individually listed are available through a bundled offering, such as [GitHub Advanced Security](https://docs.github.com/en/enterprise-server@3.4/get-started/learning-about-github/about-github-advanced-security) (GHAS). We aren&#39;t specifically endorsing any tool or service, as they each have different strengths or weaknesses. We recommend performing a thorough evaluation before deciding on a specific solution, including tools not referenced in this document.
 
-This table maps each Framework requirement to corresponding level and Framework practice. To see the full list of requirements and their benefits, please see the [_OSS SSC Framework Requirements_](#_OSS_SSC_Framework) earlier in this document.
+This table maps each Framework requirement to corresponding level and Framework practice. To see the full list of requirements and their benefits, please see the [_OSS SSC Framework Requirements_](#OSS-SSC-Framework-Requirements) earlier in this document.
 
 | **Practice name** | **L1** | **L2** | **L3** | **L4** |
 | --- | --- | --- | --- | --- |
