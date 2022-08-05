@@ -14,7 +14,7 @@ submitted to the repo and labeled with "discussion" and "specification".
 
 ### Markdown
 
-The living OSS SSC Framework is captured in [markdown](https://github.com/microsoft/oss-ssc-framework/specification/framework.md) and is where all updates will take place.
+The living OSS SSC Framework is captured in [markdown](framework.md) and is where all updates will take place.
 
 ### Contributing updates
 
@@ -25,7 +25,7 @@ below, as guidance when determining the content of their updates.
 It is highly recommended that you seek peer review for your updates beyond that
 of the Technical Leads of the working group.
 
-After the issue has been triaged in the community call, and has been tagged with "Spec Change", the next step is to submit a PR to the [markdown](https://github.com/microsoft/oss-ssc-framework/specification/framework.md) with the proposed changes. Once the PR is submitted, please link the PR to the issue to request a review.
+After the issue has been triaged in the community call, and has been tagged with "Spec Change", the next step is to submit a PR to the [markdown](framework.md) with the proposed changes. Once the PR is submitted, please link the PR to the issue to request a review.
 
 ### Versioning and publishing
 
