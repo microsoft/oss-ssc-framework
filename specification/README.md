@@ -12,6 +12,10 @@ Updates to the whitepaper, suggestions for updates, or discussion for updates
 should initiate with an [issue](https://github.com/microsoft/oss-ssc-framework/issues)
 submitted to the repo and labeled with "discussion" and "specification".
 
+### Markdown
+
+The living OSS SSC Framework is captured in [markdown](https://github.com/microsoft/oss-ssc-framework/specification/framework.md) and is where all updates will take place.
+
 ### Contributing updates
 
 All members of the community are welcome to contribute updates to the OSS SSC Framework specification. We
@@ -21,7 +25,7 @@ below, as guidance when determining the content of their updates.
 It is highly recommended that you seek peer review for your updates beyond that
 of the Technical Leads of the working group.
 
-Once the PR is submitted, please link the PR to the issue to request a review.
+After the issue has been triaged in the community call, and has been tagged with "Spec Change", the next step is to submit a PR to the [markdown](https://github.com/microsoft/oss-ssc-framework/specification/framework.md) with the proposed changes. Once the PR is submitted, please link the PR to the issue to request a review.
 
 ### Versioning and publishing
 
