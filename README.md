@@ -26,11 +26,13 @@ The general Community Specification Contributing Policy is captured on the [Cont
 *SLA to Triage Issues*:
 - The OSS SSC Framework working group will review, triage, and respond to issues during each Community Meeting.
 
-*Community Meetings*:
-- OSS SSC Framework community meetings are held the 3rd Tuesday of every month @ 12:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+*Community Meetings and Technical Meetings*:
+- <a href=[https://calendar.google.com/calendar/ical/eqv110d2cdrev5mf51ie7hapu4%40group.calendar.google.com/public/basic.ics]>iCal Subscription Link</a>
+- 
+- OSS SSC Framework community meetings are held the 3rd Tuesday of every month @ 12:00 PM Pacific. Please click the iCal Subscription link above or email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
 *Technical Meetings*:
-- OSS SSC Framework technical meetings are held the last Monday of every month @ 2:00 PM Pacific. Email adrian.diglio@microsoft.com to be added to the meeting invitation.
+- OSS SSC Framework technical meetings are held the last Monday of every month @ 2:00 PM Pacific. Please click the iCal Subscription link above or email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
 *Chat channels*:
 
