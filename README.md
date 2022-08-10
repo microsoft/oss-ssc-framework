@@ -40,15 +40,6 @@ The general Community Specification Contributing Policy is captured on the [Cont
 <div class="responsive-iframe-container small-container">
 <iframe src="https://calendar.google.com/calendar/embed?&mode=AGENDA&height=800&wkst=1&src=eqv110d2cdrev5mf51ie7hapu4%40group.calendar.google.com&color=%23B1440E&ctz=America%2FLos_Angeles" style=border-width:0 width=100% height=600 frameborder=0 scrolling=no></iframe>
 </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<footer class=footer>
-<div class=container>
-<section class=has-text-centered>
-<p class=has-text-weight-light>
 
 *Chat channels*:
 
