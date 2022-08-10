@@ -34,13 +34,6 @@ The general Community Specification Contributing Policy is captured on the [Cont
 *Technical Meetings*:
 - OSS SSC Framework technical meetings are held the last Monday of every month @ 2:00 PM Pacific. Please click the iCal Subscription link above or email adrian.diglio@microsoft.com to be added to the meeting invitation.
 
-<div class="responsive-iframe-container big-container">
-<iframe src="https://calendar.google.com/calendar/embed?&height=700&wkst=1&src=eqv110d2cdrev5mf51ie7hapu4%40group.calendar.google.com&color=%23fbdbac&ctz=America%2FLos_Angeles" style=border-width:0 width=800 height=600 frameborder=0 scrolling=no></iframe>
-</div>
-<div class="responsive-iframe-container small-container">
-<iframe src="https://calendar.google.com/calendar/embed?&mode=AGENDA&height=800&wkst=1&src=eqv110d2cdrev5mf51ie7hapu4%40group.calendar.google.com&color=%23B1440E&ctz=America%2FLos_Angeles" style=border-width:0 width=100% height=600 frameborder=0 scrolling=no></iframe>
-</div>
-
 *Chat channels*:
 
 - We have a Slack channel on the OpenSSF Slack instance: <a href=https://openssf.slack.com/archives/C03THTH3RSM><img src="https://img.shields.io/badge/Slack:-%23oss_ssc_framework%20on%20OpenSSF%20Slack-blue.svg?style=plastic&logo=slack" alt="Slack Channel"></a>
