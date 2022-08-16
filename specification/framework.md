@@ -8,8 +8,6 @@ Some examples depicted herein are provided for illustration only and are fictiti
 
 This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 
-©2022 Microsoft Corporation. All rights reserved.
-
 Licensed under [Community Specification License 1.0](https://github.com/CommunitySpecification/1.0)
 
 # Table of Contents
