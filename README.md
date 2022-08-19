@@ -19,7 +19,7 @@ The OSS SSC Framework is complete with:
 > ⭐: **Click
 > _[here](./specification/Open_Source_Software_(OSS)_Secure_Supply_Chain_(SSC)_Framework.pdf)_ for the PDF of the specification**
 > 
-> :atom: **Click [here](./specification/framework.md) to view the specificaiton in markdown** 
+> :atom:: **Click _[here](./specification/framework.md)_ to view the specification in markdown** 
 
 ## Contributing
 
