@@ -241,6 +241,8 @@ When the OSS SSC Framework was first developed, the strategy to secure our OSS s
 
 Since all 8 practices cannot be reasonably implemented at the same time, the following maturity model organizes the requirements from each of the 8 practices into 4 different levels. It allows an organization to make incremental progress from their existing set of security capabilities toward a more secure defensive posture. Additionally, the maturity model considers different threats and themes at each Maturity Level.
 
+Depending on the projects and their criteria, you may have a mix of framework levels implemented across projects. Additionally, Level 4 of the Maturity Model has a high estimated cost to implement compared to the risk/reward, and therefore should be considered as an aspirational north star vision for your organization.
+
 <p align="center">
  <img alt="list of practices" src="../images/maturity-level-white-bkg.png" width=80%>
 </p>
@@ -251,7 +253,7 @@ Since all 8 practices cannot be reasonably implemented at the same time, the fol
 
 **Level 3** – Proactively performing security analysis on your organization&#39;s most used OSS components and reducing risk to consume malicious packages are the themes of this maturity level. Scanning for malware in OSS before the package is downloaded is key toward preventing compromise. Then, to perform proactive security reviews of OSS requires that an organization can clone the source code to an internal location. Proactive security reviews help you look for the not-yet-discovered vulnerabilities, as well as identifying other threat categories such as detecting backdoors.
 
-**Level 4** – Rebuilding OSS on trusted build infrastructure is a defensive step to ensure that the OSS was not compromised at build time. Build time attacks are performed by the most sophisticated adversaries and do not occur very frequently. Thus, this level of maturity is what&#39;s required to defend against the most sophisticated adversaries. Additionally, rebuilding OSS has many subtle technical challenges such as what to name the package to prevent collisions with upstream? How to make sure all developers use the internal package instead of the external? Rebuilding also enables you to implement fixes (if needed) and deploy them at scale across your organization.
+**Level 4** – This level is considered aspirational in most cases. Rebuilding OSS on trusted build infrastructure is a defensive step to ensure that the OSS was not compromised at build time. Build time attacks are performed by the most sophisticated adversaries and do not occur very frequently. Thus, this level of maturity is what&#39;s required to defend against the most sophisticated adversaries. Additionally, rebuilding OSS has many subtle technical challenges such as what to name the package to prevent collisions with upstream? How to make sure all developers use the internal package instead of the external? Rebuilding also enables you to implement fixes (if needed) and deploy them at scale across your organization.
 
 ## How to Assess Where Your Organization is in the Maturity Model?
 
@@ -346,8 +348,6 @@ This table maps each Framework requirement to corresponding level and Framework 
 # Conclusion
 
 The goal of this paper is to provide a _simple_ framework for the pragmatic inclusion of secure OSS consumption practices in the software development process. It outlines a series of discrete, non-proprietary security development activities that when joined with effective process automation and maturation levels represent the steps necessary for an organization to objectively claim compliance with the Microsoft OSS SSC Framework as defined by the requirements identified in Level 3 of the OSS SSC Framework Maturity Model.
-
-Level 4 of the Maturity Model has a high estimated cost to implement compared to the risk/reward, and therefore should be considered as an aspirational north star vision for your organization.
 
 # Appendix: Mapping OSS SSC Framework Requirements to Other Specifications
 
