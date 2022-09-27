@@ -28,6 +28,7 @@ Licensed under [Community Specification License 1.0](https://github.com/Communit
   * [OSS SSC Framework Tooling Availability](#oss-ssc-framework-tooling-availability)
   * [Implementing the OSS SSC Framework by Level](#implementing-the-oss-ssc-framework-by-level)
 * [Conclusion](#conclusion)
+* [Appendix: Relation to SCITT](#Appendix-Relation-to-SCITT)
 * [Appendix: Mapping OSS SSC Framework Requirements to Other Specifications](#Appendix-Mapping-OSS-SSC-Framework-Requirements-to-Other-Specifications)
 * [Appendix: References](#Appendix-References)
 
@@ -349,6 +350,9 @@ This table maps each Framework requirement to corresponding level and Framework 
 
 The goal of this paper is to provide a _simple_ framework for the pragmatic inclusion of secure OSS consumption practices in the software development process. It outlines a series of discrete, non-proprietary security development activities that when joined with effective process automation and maturation levels represent the steps necessary for an organization to objectively claim compliance with the Microsoft OSS SSC Framework as defined by the requirements identified in Level 3 of the OSS SSC Framework Maturity Model.
 
+# Appendix: Relation to SCITT
+The [Supply Chain Integrity, Transparency, and Trust](https://github.com/ietf-scitt) intiative, or SCITT, is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains. In the future, we expect teams to output "attestations of conformance" to the OSS SSC Framework requirement and store it in SCITT. The format of such attestations are to be determined.
+
 # Appendix: Mapping OSS SSC Framework Requirements to Other Specifications
 
 There are many other security frameworks, guides, and controls. This section maps the OSS SSC Framework requirements to other relevant specifications including NIST SP 800-161, NIST SP 800-218, CIS Software Supply Chain Security Guide, OWASP Software Component Verification Standard, SLSA, and the CNCF Software Supply Chain Best Practices.
@@ -385,6 +389,8 @@ There are many other security frameworks, guides, and controls. This section map
 
 Here is a list of hyperlinks for documents mentioned within this paper:
 
+- [The Free Software Definition](https://en.wikipedia.org/wiki/The_Free_Software_Definition)
+- [The Open Source Definition](https://opensource.org/osd)
 - [Supply Chain Risk Management Practices for Federal Information Systems and Organizations (nist.gov)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161.pdf)
 - [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities (nist.gov)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
 - [CIS WorkBench / Benchmarks (cisecurity.org)](https://workbench.cisecurity.org/benchmarks/7555)
