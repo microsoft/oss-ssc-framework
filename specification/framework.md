@@ -242,7 +242,7 @@ When the OSS SSC Framework was first developed, the strategy to secure our OSS s
 
 Since all 8 practices cannot be reasonably implemented at the same time, the following maturity model organizes the requirements from each of the 8 practices into 4 different levels. It allows an organization to make incremental progress from their existing set of security capabilities toward a more secure defensive posture. Additionally, the maturity model considers different threats and themes at each Maturity Level.
 
-Depending on the projects and their criteria, you may have a mix of framework levels implemented across projects. Additionally, Level 4 of the Maturity Model has a high estimated cost to implement compared to the risk/reward, and therefore should be considered as an aspirational north star vision for your organization. While it is difficult to implement Level 4 at scale across your organization, it is feasible to implement level 4 on your most critical dependencies for your most critical projects.
+Depending on the projects and their criteria, you may have a mix of framework levels implemented across projects. Additionally, Level 4 of the Maturity Model has a high estimated cost to implement compared to the risk/reward, and therefore should be considered as an aspirational north star vision for your organization. While it is difficult to implement Level 4 at scale across your organization, it is feasible to implement Level 4 on your most critical dependencies for your most critical projects.
 
 <p align="center">
  <img alt="list of practices" src="../images/maturity-level-white-bkg.png" width=80%>
