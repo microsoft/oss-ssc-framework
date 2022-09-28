@@ -1,6 +1,6 @@
 <img alt="secure package icon" src="../images/secure-package-icon.png" width=15%>
 
-# Microsoft® Open Source Software (OSS) Secure Supply Chain (SSC) Framework Simplified Requirements
+# Open Source Software (OSS) Secure Supply Chain (SSC) Framework Simplified Requirements
 
 This document is provided &quot;as-is.&quot; Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it.
 
@@ -14,7 +14,7 @@ Licensed under [Community Specification License 1.0](https://github.com/Communit
 
 * [Document Change Record](#document-change-record)
 * [Introduction](#introduction)
-* [About the Microsoft OSS SSC Framework](#about-the-microsoft-oss-ssc-framework)
+* [About the OSS SSC Framework](#about-the-oss-ssc-framework)
 * [What is the OSS SSC Framework?](#what-is-the-oss-ssc-framework)
 * [Common OSS Supply Chain Threats](#common-oss-supply-chain-threats)
 * [OSS SSC Framework Practices](#oss-ssc-framework-practices)
@@ -37,7 +37,7 @@ Licensed under [Community Specification License 1.0](https://github.com/Communit
 | Date | Author | Version | Change Reference |
 | --- | --- | --- | --- |
 | 8/1/2022 | Adrian Diglio (Microsoft) | 1.0 | Initial release |
-| 9/28/2022 | Jasmine Wang (Microsoft) | 1.1 | Resolving issues [#5](https://github.com/microsoft/oss-ssc-framework/issues/5), [#6](https://github.com/microsoft/oss-ssc-framework/issues/6), [#7](https://github.com/microsoft/oss-ssc-framework/issues/7), [#9](https://github.com/microsoft/oss-ssc-framework/issues/9) |
+| 9/28/2022 | Jasmine Wang (Microsoft) | 1.1 | Resolving issues [#5](https://github.com/microsoft/oss-ssc-framework/issues/5), [#6](https://github.com/microsoft/oss-ssc-framework/issues/6), [#7](https://github.com/microsoft/oss-ssc-framework/issues/7), [#9](https://github.com/microsoft/oss-ssc-framework/issues/9). Replaced references to "Microsoft OSS SSC Framework" with "OSS SSC Framework." |
 
 # Introduction
 
@@ -49,7 +49,7 @@ This paper is split into two parts: a solution-agonistic set of practices and a 
 
 This paper presents:
 
-- An overview of the Microsoft OSS SSC Framework Practices.
+- An overview of the OSS SSC Framework Practices.
 - Common supply chain threats with examples and how OSS SSC Framework can help.
 - An overview of the OSS SSC Framework Implementation Guide and Maturity Model.
 - A process for assessing your organization&#39;s maturity.
@@ -58,7 +58,7 @@ This paper presents:
 
 The guidance provided in this paper is targeted toward organizations that do software development, that take a dependency on open source software, and that seek to improve the security of their software supply chain.
 
-# About the Microsoft OSS SSC Framework
+# About the OSS SSC Framework
 
 The OSS SSC Framework is a security assurance and risk reduction process that is focused on securing how developers consume open source software. As a Microsoft-wide initiative since 2019, the OSS SSC Framework provides security guidance and tools throughout the developer inner-loop and outer-loop processes that have played a critical role in defending and preventing supply chain attacks through consumption of open source software across Microsoft. Using a threat-based risk-reduction approach, the goals of the OSS SSC Framework are to:
 
@@ -66,7 +66,7 @@ The OSS SSC Framework is a security assurance and risk reduction process that is
 2. Improve the Mean Time To Remediate (MTTR) for resolving known vulnerabilities in OSS
 3. Prevent the consumption of compromised and malicious OSS packages
 
-The Microsoft OSS SSC Framework (described later in this document) is modeled after three core concepts—_control all artifact inputs, continuous process improvement, and scale._
+The OSS SSC Framework (described later in this document) is modeled after three core concepts—_control all artifact inputs, continuous process improvement, and scale._
 
 <p align="center">
  <img alt="framework diagram" src="../images/Diagram-white-bkg.png" width=70%>
@@ -74,7 +74,7 @@ The Microsoft OSS SSC Framework (described later in this document) is modeled af
 
 - _Control All Artifact Inputs_: There are a myriad of ways that developers consume OSS today: git clone, wget, copy &amp; pasted source, checking-in the binary into the repo, direct from public package managers, repackaging the OSS into a .zip, curl, apt-get, git submodule, and more. Securing the OSS supply chain in any organization is going to be near impossible if developer teams don&#39;t follow a uniform process for consuming OSS. Enforcing an effective secure OSS supply chain strategy necessitates standardizing your OSS consumption process across the various developer teams throughout your organization, so all developers consume OSS using governed workflows.
 - _Continuous Process Improvement_: To help guide organizations through continuous process improvement, we have organized the OSS SSC Framework into a maturity model. This helps organizations prioritize which requirements they should implement first. Since security risk is dynamic and new threats can emerge at any time, the OSS SSC Framework places heavy emphasis on understanding the new threats to the OSS supply chain and _requires_ regular evaluation of OSS SSC Frameworkcontrols and introduction of changes in response to new technology advancements or new threats.
-- _Scale_:The Microsoft OSS SSC Framework tools were designed with scale in mind. Some organizations may attempt to secure their OSS ingestion process through a central internal registry that all developers within the organization are supposed to pull from. However, what if one developer chooses to pull straight from pypi.org or npmjs.com? Is there anything preventing them from doing so? A central internal registry also has the problem of requiring a team to manage the process and workflow, which is extra overhead. As such, Microsoft&#39;s OSS SSC Framework tools were developed to secure how they consume OSS today at scale without requiring a central internal registry or central governance body.
+- _Scale_:The OSS SSC Framework tools were designed with scale in mind. Some organizations may attempt to secure their OSS ingestion process through a central internal registry that all developers within the organization are supposed to pull from. However, what if one developer chooses to pull straight from pypi.org or npmjs.com? Is there anything preventing them from doing so? A central internal registry also has the problem of requiring a team to manage the process and workflow, which is extra overhead. As such, the OSS SSC Framework tools were developed to secure how they consume OSS today at scale without requiring a central internal registry or central governance body.
 
 # What is the OSS SSC Framework?
 
@@ -82,7 +82,7 @@ The OSS SSC Framework is a combination of requirements and tools for any organiz
 
 # Common OSS Supply Chain Threats
 
-The Microsoft OSS SSC Framework was designed based on known threats (i.e. tactics and techniques) used by adversaries to compromise OSS packages. The table below is a comprehensive compilation of OSS supply chain threats with links to real examples. It also identifies which OSS SSC Framework requirements mitigate the threat. To see the full list of requirements and their benefits, please see the [OSS SSC Framework Requirements](#oss-ssc-framework-requirements) later in this document.
+The OSS SSC Framework was designed based on known threats (i.e. tactics and techniques) used by adversaries to compromise OSS packages. The table below is a comprehensive compilation of OSS supply chain threats with links to real examples. It also identifies which OSS SSC Framework requirements mitigate the threat. To see the full list of requirements and their benefits, please see the [OSS SSC Framework Requirements](#oss-ssc-framework-requirements) later in this document.
 
 For other sources of OSS threats, please see the following links:
 
@@ -349,7 +349,7 @@ This table maps each Framework requirement to corresponding level and Framework 
 
 # Conclusion
 
-The goal of this paper is to provide a _simple_ framework for the pragmatic inclusion of secure OSS consumption practices in the software development process. It outlines a series of discrete, non-proprietary security development activities that when joined with effective process automation and maturation levels represent the steps necessary for an organization to objectively claim compliance with the Microsoft OSS SSC Framework as defined by the requirements identified in Level 3 of the OSS SSC Framework Maturity Model.
+The goal of this paper is to provide a _simple_ framework for the pragmatic inclusion of secure OSS consumption practices in the software development process. It outlines a series of discrete, non-proprietary security development activities that when joined with effective process automation and maturation levels represent the steps necessary for an organization to objectively claim compliance with the OSS SSC Framework as defined by the requirements identified in Level 3 of the OSS SSC Framework Maturity Model.
 
 # Appendix: Relation to SCITT
 The [Supply Chain Integrity, Transparency, and Trust](https://github.com/ietf-scitt) initiative, or SCITT, is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains. In the future, we expect teams to output "attestations of conformance" to the OSS SSC Framework requirements and store it in SCITT. The format of such attestations is to be determined.
