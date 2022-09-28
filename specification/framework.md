@@ -37,6 +37,7 @@ Licensed under [Community Specification License 1.0](https://github.com/Communit
 | Date | Author | Version | Change Reference |
 | --- | --- | --- | --- |
 | 8/1/2022 | Adrian Diglio (Microsoft) | 1.0 | Initial release |
+| 9/28/2022 | Jasmine Wang (Microsoft) | 1.1 | Resolving issues [#5](https://github.com/microsoft/oss-ssc-framework/issues/5), [#6](https://github.com/microsoft/oss-ssc-framework/issues/6), [#7](https://github.com/microsoft/oss-ssc-framework/issues/7), [#9](https://github.com/microsoft/oss-ssc-framework/issues/9) |
 
 # Introduction
 
@@ -351,7 +352,7 @@ This table maps each Framework requirement to corresponding level and Framework 
 The goal of this paper is to provide a _simple_ framework for the pragmatic inclusion of secure OSS consumption practices in the software development process. It outlines a series of discrete, non-proprietary security development activities that when joined with effective process automation and maturation levels represent the steps necessary for an organization to objectively claim compliance with the Microsoft OSS SSC Framework as defined by the requirements identified in Level 3 of the OSS SSC Framework Maturity Model.
 
 # Appendix: Relation to SCITT
-The [Supply Chain Integrity, Transparency, and Trust](https://github.com/ietf-scitt) intiative, or SCITT, is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains. In the future, we expect teams to output "attestations of conformance" to the OSS SSC Framework requirements and store it in SCITT. The format of such attestations are to be determined.
+The [Supply Chain Integrity, Transparency, and Trust](https://github.com/ietf-scitt) initiative, or SCITT, is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains. In the future, we expect teams to output "attestations of conformance" to the OSS SSC Framework requirements and store it in SCITT. The format of such attestations is to be determined.
 
 # Appendix: Mapping OSS SSC Framework Requirements to Other Specifications
 
