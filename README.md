@@ -1,5 +1,7 @@
 # Open Source Software (OSS) Secure Supply Chain (SSC) Framework
 
+THIS REPO HAS BEEN CONTRIBUTED TO THE OPENSSF. THE NEW REPO IS HERE [https://github.com/ossf/s2c2f/](https://github.com/ossf/s2c2f/).
+
 <img alt="secure package icon" src="images/secure-package-icon.png" width=15%>
 
 ## Overview
